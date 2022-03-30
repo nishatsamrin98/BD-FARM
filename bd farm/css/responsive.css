@@ -1,0 +1,555 @@
+@media (min-width:1200px) {
+    #feedback p {
+        padding-right: 500px;
+        line-height: 30px;
+    }
+}
+
+/*    large responsive start     */
+@media (min-width:992px) and (max-width:1199px) {
+    header nav .navbar-nav .nav-item .nav-link {
+        margin: 20px 0px;
+    }
+
+    header #menubar .navbar-brand {
+        font-size: 32px;
+    }
+
+    #banner .overlay {
+        padding: 210px 0 100px 0;
+    }
+
+    #banner h1 {
+        font-size: 40px;
+    }
+
+    #banner h3 {
+        font-size: 28px;
+    }
+
+    #banner p {
+        font-size: 14px;
+    }
+
+    #banner .banner_item ul li a {
+        line-height: 45px;
+        padding: 0 20px;
+        width: 135px;
+    }
+
+    #about,
+    #service,
+    #product,
+    #feedback,
+    #blog {
+        padding-top: 80px;
+    }
+
+    #feedback h2::after {
+        top: 63%;
+    }
+
+    #feedback .overlay {
+        padding: 70px 0;
+    }
+
+    #feedback p {
+        padding-right: 445px;
+    }
+
+    #contact .contact_overlay .contact_details_contact ul li,
+    #contact .contact_overlay .contact_details_news .second_ul li a {
+        font-size: 14px;
+    }
+
+    #contact .contact_overlay {
+        padding: 70px 0;
+    }
+
+    .contact_details_heading h3 {
+        font-size: 26px;
+    }
+
+    #contact .contact_overlay .contact_details_news .second_ul {
+        margin-top: -15px;
+    }
+
+    #contact .contact_overlay .contact_details_news .second_ul li a {
+        font-weight: 500;
+    }
+
+    #contact .contact_overlay .contact_details p {
+        padding-top: 10px;
+        line-height: 20px;
+    }
+
+    footer {
+        margin-top: 80px;
+    }
+
+    .heading {
+        padding-bottom: 40px;
+    }
+}
+
+/*    large responsive ends     */
+
+/*    medium responsive start     */
+
+@media (min-width:768px) and (max-width:991px) {
+    header #menubar {
+        top: 15px;
+        background: #00f400;
+    }
+
+    header #menubar .navbar-brand {
+        font-size: 32px;
+        margin-left: 15px;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+        outline: 0;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    header nav .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    header nav .navbar-nav .nav-item .nav-link {
+        margin: 5px 0px;
+        padding: 0 10px;
+        line-height: 40px;
+    }
+
+    header nav .navbar-nav .nav-item .nav-link.active {
+        color: #000;
+    }
+
+    header nav .navbar-nav .nav-item .nav-link:hover {
+        color: #000;
+    }
+
+    #banner .overlay {
+        padding: 210px 0 100px 0;
+    }
+
+    #banner h1 {
+        font-size: 40px;
+    }
+
+    #banner h3 {
+        font-size: 28px;
+    }
+
+    #banner p {
+        font-size: 14px;
+    }
+
+    #banner .banner_item ul li a {
+        line-height: 45px;
+        padding: 0 20px;
+        width: 135px;
+    }
+
+    #about,
+    #service,
+    #product,
+    #feedback,
+    #blog {
+        padding-top: 70px;
+    }
+
+    #about .about_item_left h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    #about .about_item_left p {
+        padding: 0 60px;
+        line-height: 24px;
+        font-size: 16px;
+    }
+
+    .heading {
+        padding-bottom: 35px;
+    }
+
+    #service p {
+        line-height: 20px;
+        font-size: 14px;
+        font-style: none;
+    }
+
+    #feedback p {
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    #feedback h2::after {
+        top: 65%;
+    }
+
+    #feedback input[type="email"] {
+        width: 45%;
+        padding: 13px 15px;
+    }
+
+    #feedback ul li a {
+        line-height: 45px;
+        padding: 0 25px;
+        width: 185px;
+    }
+
+    #feedback .overlay {
+        padding: 70px 0;
+    }
+
+    #contact .contact_overlay {
+        padding: 35px 0;
+    }
+
+    #contact .contact_overlay .contact_details img {
+        width: 90%;
+    }
+
+    #contact .contact_overlay .contact_details_heading h3 {
+        padding: 15px 0 15px 0;
+    }
+
+    #contact .contact_overlay .contact_details a {
+        padding: 0 96px;
+    }
+
+    #contact .contact_overlay .contact_details_gallery img {
+        height: 65px;
+        margin: 4.5px 2.5px;
+    }
+
+    #contact .contact_overlay .contact_details_contact p {
+        padding-bottom: 20px;
+    }
+
+    footer {
+        margin-top: 70px;
+    }
+}
+
+/*    medium responsive ends     */
+
+/*    small device responsive start    */
+
+@media (min-width:576px) and (max-width:767px) {
+    header #menubar {
+        top: 15px;
+        background: #00f400;
+    }
+
+    header #menubar .navbar-brand {
+        font-size: 32px;
+        margin-left: 15px;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+        outline: 0;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    header nav .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    
+    header nav .navbar-nav .nav-item .nav-link {
+        margin: 5px 0px;
+        padding: 0 10px;
+        line-height: 40px;
+    }
+
+    header nav .navbar-nav .nav-item .nav-link.active {
+        color: #000;
+    }
+
+    header nav .navbar-nav .nav-item .nav-link:hover {
+        color: #000;
+    }
+
+    #banner .overlay {
+        padding: 190px 0 90px 0;
+    }
+
+    #banner h1 {
+        font-size: 35px;
+    }
+
+    #banner h3 {
+        font-size: 26px;
+    }
+
+    #banner p {
+        font-size: 14px;
+    }
+
+    #banner .banner_item ul li a {
+        line-height: 45px;
+        padding: 0 20px;
+        width: 135px;
+    }
+
+    #about,
+    #service,
+    #product,
+    #feedback,
+    #blog {
+        padding-top: 70px;
+    }
+
+    #about .about_item_left h1 {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+
+    .heading {
+        font-size: 36px;
+        padding-bottom: 30px;
+    }
+
+    #about .about_item_left p {
+        line-height: 20px;
+        font-size: 16px;
+        font-style: none;
+    }
+
+    .about_item_right {
+        margin-top: 30px;
+    }
+
+    #service p {
+        padding: 0 50px;
+    }
+
+    #feedback h2::after {
+        top: 65%;
+    }
+
+    #feedback p {
+        line-height: 22px;
+        font-size: 16px;
+        padding-right: 200px;
+    }
+
+    #feedback input[type="email"] {
+        width: 50%;
+    }
+
+    #feedback ul li a {
+        width: 185px;
+    }
+
+    #feedback .overlay {
+        padding: 70px 0;
+    }
+
+    #blog i {
+        padding-right: 15px;
+    }
+
+    #blog a {
+        font-size: 18px;
+    }
+
+    #blog p {
+        line-height: 22px;
+    }
+
+    #contact .contact_overlay {
+        padding: 35px 0;
+    }
+
+    #contact .contact_overlay .contact_details img {
+        width: 90%;
+    }
+
+    #contact .contact_overlay .contact_details_heading h3 {
+        padding: 15px 0 15px 0;
+    }
+
+    #contact .contact_overlay .contact_details a {
+        padding: 0 20px;
+        line-height: 42px;
+    }
+
+    #contact .contact_overlay .contact_details_gallery img {
+        height: 65px;
+        margin: 2.5px 0;
+    }
+
+    #contact .contact_overlay .contact_details_contact p {
+        padding-bottom: 0;
+        line-height: 22px;
+    }
+
+    #contact .contact_overlay .contact_details p {
+        line-height: 22px;
+    }
+
+    footer {
+        margin-top: 70px;
+    }
+
+    #contact .contact_overlay .contact_details_contact ul li {
+        line-height: 36px;
+    }
+}
+
+/*    small device responsive ends    */
+
+@media (min-width:320px) and (max-width:575px) {
+    header #menubar {
+        top: 15px;
+        background: #00f400;
+    }
+
+    header #menubar .navbar-brand {
+        font-size: 32px;
+        margin-left: 15px;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+        margin-right: 15px;
+        outline: 0;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    header nav .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    header nav .navbar-nav .nav-item .nav-link {
+        margin: 5px 0px;
+        padding: 0 10px;
+        line-height: 40px;
+    }
+
+    header nav .navbar-nav .nav-item .nav-link.active {
+        color: #000;
+    }
+
+    header nav .navbar-nav .nav-item .nav-link:hover {
+        color: #000;
+    }
+
+    #banner .overlay {
+        padding: 150px 0 50px 0;
+    }
+
+    #banner h1 {
+        font-size: 28px;
+        padding-bottom: 5px;
+    }
+
+    #banner h3 {
+        font-size: 20px;
+    }
+
+    #banner p {
+        font-size: 14px;
+        padding: 10px 10px 15px 19px;
+    }
+
+    #banner .banner_item ul li {
+        margin: 0 5px;
+    }
+
+    #banner .banner_item ul li a {
+        line-height: 40px;
+        padding: 0 20px;
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+
+    #about,
+    #service,
+    #product,
+    #feedback,
+    #blog {
+        padding-top: 70px;
+    }
+
+    #about .about_item_left h1 {
+        font-size: 34px;
+        padding-bottom: 15px;
+    }
+
+    #about .about_item_left p {
+        padding: 0 35px;
+        line-height: 20px;
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .about_item_right {
+        margin-top: 20px;
+    }
+
+    #about,
+    #service,
+    #product,
+    #feedback,
+    #blog {
+        padding-top: 45px;
+    }
+
+    #feedback .overlay {
+        padding: 45px 0;
+    }
+
+    #feedback h2::after {
+        width: 25%;
+        height: 3px;
+        top: 65%;
+    }
+
+    #feedback p {
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    #feedback input[type="email"] {
+        width: 70%;
+        padding: 12px 10px;
+        font-size: 12px;
+    }
+
+    #feedback ul li a {
+        line-height: 40px;
+        padding: 0 15px;
+        width: 130px;
+        font-size: 12px;
+    }
+}
